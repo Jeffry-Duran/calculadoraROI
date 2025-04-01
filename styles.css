@@ -1,0 +1,31 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #6b46c1 0%, #3b82f6 100%);
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.chart-container {
+    height: 250px;
+    position: relative;
+}
+
+.results-column {
+    min-height: 400px;
+}
